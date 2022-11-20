@@ -1,0 +1,324 @@
+@font-face {
+    font-family: Comical;
+    src: url(../Font/LT\ Comical.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header {
+    background-color: #e60021;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.container-header .navbar .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-header .navbar .navbar-list .navbar-item img {
+    height: 100px;
+    width: 110px;
+}
+
+.container-header .navbar .navbar-list .navbar-item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 3em;
+    transition: all 0.3s linear;
+    display: inline-block;
+}
+
+.navbar-slogan {
+    margin-right: auto;
+    margin-left: 1px;
+}
+
+.container-header .navbar .navbar-list .navbar-item a:hover {
+    color: #a3e057;
+}
+
+.container-header .navbar .navbar-list .navbar-item #background-contact {
+    background-color: #a3e057;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-header .navbar .navbar-list .navbar-item #background-contact:hover {
+    color: white;
+}
+
+.container-header2 {
+    background-image: url(../Imagens/Pizza\ Contato.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-header2 #title-container {
+    display: inline-block;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 530;
+    font-style: italic;
+    font-family: Comical, Arial, Helvetica, sans-serif;
+    text-shadow: 3px -4px 4px black;
+    font-size: 7em;
+    padding-top: 430px;
+    transition: all 0.3s linear;
+}
+
+.container-header2 #title-container:hover {
+    color: #d3d3d3;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 320px;
+}
+
+.contact-section .contact-card {
+    width: 25%;
+    border: 3px solid #222222;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.contact-section .contact-card img {
+    height: 40px;
+    background-color: #f3f3f3;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.contact-section .contact-card span {
+    color: #4c4c4c;
+    font-size: 20px;
+}
+
+.contact-section .contact-card .card-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.contact-section .contact-card .card-text {
+    display: inline-block;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    font-family: Comical, Arial, Helvetica, sans-serif;
+}
+
+footer div.title__footer {
+    font-size: 40px;
+    padding-left: 17px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-family: Comical, Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.titleElement__footer:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.titleElement__footert:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background-color: #f12020;
+    top: -10px;
+}
+
+.titleElement__footer {
+    flex-basis: 50%;
+}
+
+footer div.title__footer h1 {
+    color: #f12020;
+}
+
+footer div.side__footer div.content__footer {
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div.side__footer div.content__footer div.row__footer,
+.maps__footer {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.maps__footer {
+    justify-content: flex-start;
+    margin-left: 18px;
+}
+
+div.row__footer svg,
+div.row {
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.row__footer p {
+    margin-left: 3px;
+}
+
+div.icon__footer {
+    background: #6A6262;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    transition-duration: 2s;
+    margin-top: 6px;
+}
+
+div.icon__footer:hover {
+    background-color: #a3e057;
+}
+
+div.icon__footer:hover svg.bi path {
+    fill: red;
+}
+
+div.icon__footer svg {
+    margin: 3px;
+}
+
+div.row__footer {
+    margin-bottom: 23px;
+}
+
+footer * {
+    color: white;
+    fill: #fff;
+}
+
+div.row__footer p {
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+footer .developedby {
+    background: #222222;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .developedby a {
+    color: #a3e057;
+    transition: all 0.5s linear;
+    text-decoration: none;
+}
+
+footer .developedby a:hover {
+    color: #608533;
+}
+
+.underlineTitle__footer {
+    width: 100px;
+    height: 3px;
+    z-index: 9;
+    margin-bottom: 25px;
+    margin-top: -3px;
+    display: flex;
+    margin-left: 14px;
+}
+
+#underlineRed {
+    height: 4px;
+    width: 79px;
+    background: #e60021;
+}
+
+#underlineWhite {
+    width: 79px;
+    height: 4px;
+    background: white;
+}
+
+#underlineGreen {
+    width: 79px;
+    height: 4px;
+    background: #a3e057;
+}
+
+.link-cardapio {
+    text-align: center;
+}
+
+.link-cardapio a {
+    text-decoration: none;
+    color: #1b0b27;
+    font-family: Comical, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline solid;
+}
+
+#maps {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
